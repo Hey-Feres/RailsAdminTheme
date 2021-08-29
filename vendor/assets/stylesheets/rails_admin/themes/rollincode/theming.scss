@@ -110,7 +110,6 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 
 .btn-info {
   background: $tertiary;
-  border-color: darken($tertiary, 10%);
 
   &:active,
   &:focus,
@@ -526,4 +525,8 @@ td.carrierwave_type .img-thumbnail {
 
 .modal-header-title {
   margin-top: 0;
+}
+
+.progress-bar {
+  background: $tertiary !important;
 }
