@@ -273,8 +273,12 @@ a.navbar-brand {
   }
 }
 
+.sub-menu {
+  color: #000 !important;
+}
+
 .sub-menu a {
-  color: #000;
+  color: #000 !important;
   padding: 10px 15px 10px 30px;
   font-size: 14px;
   line-height: 1.42857143;
